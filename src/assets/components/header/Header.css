@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+
+.social-icon{
+    width: 20px !important;
+    height: 20px !important;
+    margin: 5px;
+}
+
+.social-icon:hover{
+    width: 30px !important;
+    height: 30px !important;
+
+}
+
+
+.nav-icons{
+margin-left:10% ;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 2rem;
+    padding-right: 5vw;
+    font-family: "Rubik", "sans-serif";
+    font-size: 0.8rem;
+
+}
+a:hover{
+    font-size: 1rem;
+}
+
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+
+}
+
+
+
+
+
