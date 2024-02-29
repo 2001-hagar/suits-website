@@ -1,22 +1,28 @@
-import { SocialIcon } from 'react-social-icons'
+import { BsFacebook, BsInstagram  } from "react-icons/bs";
+
+
 import './Header.css'
 
 const Header = () => {
     return (
         <div className="nav-container">
         <div className="nav-icons">
-           <SocialIcon network='facebook' className='social-icon '  url='https://www.facebook.com/ORANGESQUARECAIRO/'/>
-           <SocialIcon network='instagram' className='social-icon ' url='https://www.instagram.com/orangesquarecairo/'/>
+            <a href=" ">
+            <BsFacebook  className='social-icon' style={{'color': '#ffffff' }}/>
+            </a>
+            <a href=" ">
+            <BsInstagram  className='social-icon' style={{'color': '#ffffff' }}/>
+            </a>
            </div>
            <ul className="nav-links">
-                <li>
-                <a href="#">PROFILE</a>
+                <li className='links'>
+                <a href="#" className='links'>PROFILE</a>
                 </li>
-                <li>
-                <a href="#">ABOUT US</a>
+                <li className='links'>
+                <a href="#" className='links'>ABOUT US</a>
                 </li>
-                <li>
-                <a href="#">CONTACT US</a>
+                <li className='links' >
+                <a href="#" className='links'>CONTACT US</a>
                 </li>
             </ul>
            </div>
