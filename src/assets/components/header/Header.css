@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 .social-icon{
     width: 15px !important;
     height: 15px !important;
@@ -24,10 +27,11 @@ box-sizing: border-box;
     justify-content: space-between;
     gap: 2rem;
     padding-right: 5vw;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 0.8rem;
+    font-family: "Rubik", sans-serif;
+    font-size: 0.6rem;
     align-items: start;
     margin: 0px;
+    font-weight: 700;
 
 }
 
@@ -55,7 +59,6 @@ ul > li{
     justify-content: space-between;
     margin-top: 0.3vh;
     box-sizing: border-box;
-    height: 2.7vh;
 
 }
 

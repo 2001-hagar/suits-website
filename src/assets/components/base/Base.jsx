@@ -14,7 +14,7 @@ const Base = () => {
         <NaveBase />
         </div>
         </div>
-        <div className="base-text"  ><h1 style={{"margin":"0px","fontSize":"4.5em"}}><strong>Suits</strong></h1><p style={{"fontSize":"1.1rem"}}>Fashion Fade, Style is Eternal</p></div>
+        <div className="base-text"  ><h1 style={{"margin":"0px","fontSize":"6em"}}><strong>Suits</strong></h1><p style={{"fontSize":"1.1rem"}}>Fashion Fade, Style is Eternal</p></div>
 
         
     </div>
