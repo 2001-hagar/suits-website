@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .base {
-    height: 30vh;
+    height: 25vh;
     background-image: url("https://www.orangesquarecairo.com/wp-content/uploads/2020/12/suitss-1.jpg");
     margin-top: 0px;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     width:max(18vh,18vw);
     animation-name: rotate;
     animation-duration: 1.5s;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 .base-header-container{
@@ -21,7 +21,7 @@
     box-sizing: border-box;
     align-items: center;
     padding-top: 1.5vh ;
-    gap: 27vw;
+    gap: 27.5vw;
     box-sizing: border-box;
 
 }
@@ -34,12 +34,15 @@
     justify-content: space-between;
     gap: 0.2rem;
     align-items: center;
-    margin-top: 1rem;
     margin-right: 10%;
     font-family: "Quicksand", sans-serif;
+  }
+
+  .text-animation-base{
     animation-name: bouncing;
     animation-duration: 1s;
-    animation-delay: 0.1s; 
+    animation-delay: 0.5s; 
+
   }
   
 

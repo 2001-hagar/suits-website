@@ -1,0 +1,71 @@
+.card-cover{
+    width: 15vw;
+    height: 40vh;
+    padding: 10px;
+    background-image: url("../../DSC05329-1365x2048.jpg");
+    cursor: pointer;
+    background-size: 15vw 40vh;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+
+
+}
+
+.card-cover:hover{
+    /* transform: scale(1.1); */
+    filter:contrast(1.2);
+    
+}
+.BsSuitHeart {
+    color: white !important;
+}
+
+.BsSuitHeart:hover{
+    transform: scale(1) !important;
+}
+
+.BsSuitHeart-active{
+    color: brown !important;
+    transform: scale(1.5) !important;
+
+}
+
+.card-text{
+    color: white;
+    background-color: rgb(35, 33, 33);
+    padding-left: 1px;
+    font-size:0.5rem;
+    height: 7vh;
+    padding: 0.3rem;
+}
+
+
+
+.card-footer{
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 0%;
+
+}
+.quick-view{
+    color: white;
+    background-color:gray ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2vh;
+    font-weight: 900;
+    font-size:0.6rem;
+
+}
+.quick-view:hover{
+    color: gray;
+    background-color:white;
+}
+
+.darkBgCard{
+    filter:blur(3px);
+}
