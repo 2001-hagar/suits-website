@@ -6,4 +6,19 @@
 
 body{
  background-color: black;
+ font-family: "Rubik", sans-serif;
+
+}
+
+
+.hidden{
+    display: none;
+}
+
+.slides-show{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 2rem;
+
 }

@@ -1,0 +1,119 @@
+.ProductDetails-container{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.suitimage{
+ width: auto;
+ height: 500px;
+}
+
+
+.btn-dropdown-size{
+    cursor: pointer;
+    margin-left: 2rem;
+    width: 10rem;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.1rem;
+    border: 0px;
+    background-color: rgb(228, 226, 226);
+    outline: none;
+
+}
+
+.size-text{
+    color: rgb(80, 80, 80);
+    font-weight: 400;
+}
+
+.size-label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 900;
+    padding:0.8rem;
+}
+
+
+.chooseSize{
+    padding: 0rem 2rem 0.5rem 0rem;
+}
+
+
+.num-qty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5vw;
+    border-radius: 0.4rem;
+    height: 5vh;
+    border: 1px solid rgb(37, 36, 36);
+    box-shadow: 1px 0.5px 5px  rgb(220, 220, 220) inset;
+}
+
+.qty{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-add-to-cart{
+    width:15vw ;
+    height: 5vh;
+    border-radius: 4px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    border: 0px;
+}
+.btn-add-to-cart:hover{
+    transform: translateY(-0.2rem);
+    box-shadow: 3px 2px 10px black;
+}
+.btn-add-to-cart:active{
+    transform: translateY(0rem);
+    box-shadow: none;
+    background-color: gray;
+
+}
+
+.sizes-options{
+   background-color: rgb(228, 226, 226);
+    height: 15vh;
+    width: 10rem;
+    position: absolute;
+    top: 7vh;
+    right: 0vw;
+    overflow: auto;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+.neg-qty:active, .pos-qty:active{
+    transform: scale(1.2);
+}
+
+.neg-qty, .pos-qty{
+    transform: scale(1.5);
+}
+
+.drop-down-container{
+    position: relative;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}

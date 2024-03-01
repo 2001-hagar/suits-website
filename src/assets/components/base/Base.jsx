@@ -1,5 +1,5 @@
 import "./Base.css"
-import  NaveBase from "../nav-base/NaveBase.jsx"
+import NaveBase from "../nav-base/NaveBase"
 
 const Base = () => {
   return (
@@ -11,7 +11,7 @@ const Base = () => {
         </div>
         </a>
         <div className="nav-base">
-        <NaveBase />
+        <NaveBase/>
         </div>
         </div>
         <div className="base-text"  >
@@ -20,10 +20,9 @@ const Base = () => {
                     Suits
                 </strong>
                 </h1>
-                <marquee width="40%" 
-                 direction="left" style={{"fontSize":"1.1rem"}}>
-                    Fashion Fade, Style is Eternal
-                    </marquee>
+                <p style={{"margin":"0px"}}>
+                Fashion Fade, Style is Eternal
+                </p>
                     </div>
 
         

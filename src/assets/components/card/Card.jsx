@@ -11,7 +11,7 @@ import { GiShoppingBag } from "react-icons/gi";
  */
 
 
-const Card = ({darkBgCard,url }) => {
+const Card = ({darkBgCard,url,setShowModal }) => {
 
 const [isActive,setActive]=useState(false)
 const [isHovered,setHovered]=useState(false)
@@ -39,12 +39,12 @@ const [isHovered,setHovered]=useState(false)
   />
 
   <div className="card-footer">
-    <div className="quick-view">QUICK VIEW</div>
+    <div className="quick-view" onClick={()=>{setShowModal(true)}}>QUICK VIEW</div>
     <div className="card-text">
 <h2 style={{"margin":"0px"}}>
     BLAZER-CHECKED GREEN-NOTCH LAPEL
 </h2>
-< GiShoppingBag id="card-GiShoppingBag"  style={{'color': '#ffffff',"transform":"scale(3)","position":"absolute","bottom":"15px","right":"15px"}}/>
+< GiShoppingBag className="cardiShoppingBag"  style={{'color': '#ffffff',"height":"20px","width":"20px","position":"absolute","bottom":"5px","right":"5px"}}/>
 </div>
   </div>
 
