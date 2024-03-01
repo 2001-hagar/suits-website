@@ -7,11 +7,11 @@ import { GiShoppingBag } from "react-icons/gi";
 /**
  * @param {Object} props
  * @param {boolean} props.darkBgCard
- * @param {string} props.link
+ * @param {string} props.url
  */
 
 
-const Card = ({darkBgCard,url,setShowModal }) => {
+const Card = ({id, url,increaseCartQuantity,darkBgCard, setShowModal }) => {
 
 const [isActive,setActive]=useState(false)
 const [isHovered,setHovered]=useState(false)
@@ -28,9 +28,9 @@ const [isHovered,setHovered]=useState(false)
 
     }
 
-
+// console.log(id)
   return (
-    <div className={darkBgCard?"card-cover darkBgCard":"card-cover "} onMouseEnter={handleHoverOn} onMouseLeave={handleHoverOut}>
+    <div  className={darkBgCard?"card-cover darkBgCard":"card-cover "} onMouseEnter={handleHoverOn} onMouseLeave={handleHoverOut}>
   <BsSuitHeart id="heart-logo" className={isActive?"BsSuitHeart-active":isHovered?"BsSuitHeart":""} onClick={handleClick}
     style={{
       "color": "transparent",
@@ -41,10 +41,16 @@ const [isHovered,setHovered]=useState(false)
   <div className="card-footer">
     <div className="quick-view" onClick={()=>{setShowModal(true)}}>QUICK VIEW</div>
     <div className="card-text">
-<h2 style={{"margin":"0px"}}>
+<h3 style={{"margin":"0px"}}>
     BLAZER-CHECKED GREEN-NOTCH LAPEL
+</h3>
+<h2 style={{"margin":"0px"}}>
+<strong>EGP</strong> 000.0
 </h2>
-< GiShoppingBag className="cardiShoppingBag"  style={{'color': '#ffffff',"height":"20px","width":"20px","position":"absolute","bottom":"5px","right":"5px"}}/>
+
+<div style={{"width":"20rem","height":"20rem"}}  onClick={increaseCartQuantity}>
+< GiShoppingBag className="cardiShoppingBag"  style={{'color': '#ffffff',"height":"1rem","width":"1rem","position":"absolute","bottom":"5px","right":"5px"}}/>
+</div>
 </div>
   </div>
 

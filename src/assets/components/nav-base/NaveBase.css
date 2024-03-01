@@ -23,35 +23,54 @@
 
 .wear-options{
     background-color: #454545;
-     height: 20vh;
+     height: 15vh;
      border-radius: 0.7rem;
-     width: 5rem;
+     width: 4rem;
      position: absolute;
-     top: 15vh;
+     top: 12vh;
      right: 30vw;
-     overflow: auto;
+     overflow: hidden;  
+   
  }
+
+ .wear-options > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+    gap:1rem;
+
+ }
+
+
 
  .cart-options{
     background-color: #454545;
-    height: 50vh;
+    height: 30vh;
     border-radius: 0.7rem;
     width: 15rem;
     position: absolute;
-    top: 11vh;
-    right: 5vw;
+    top: 5vh;
+    right: 0vw;
     overflow: auto;
+    @media (max-width: 760px) {
+        display: none;
+
+    }
+
  }
 
  .num-cart{
     position: absolute;
-    top: 8vh;
-    right: 5.5vw;
+    top: 6px;
+    right: 0vw;
     border-radius: 1rem;
     padding: 0.1rem;
     color: white;
     background-color: red !important;
     font-size: 0.5rem;
+    
  }
  
 .nav-base-links> *{
@@ -78,7 +97,7 @@ position: relative;
     content: " ";
     display: block;
     width: 1.5rem;
-    height: 3px;
+    height: 1.5px;
     background-color: transparent;
     position: absolute;
     top: 1.3rem;

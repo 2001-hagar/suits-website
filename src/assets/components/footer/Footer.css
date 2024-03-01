@@ -1,3 +1,5 @@
 marquee{
     color: white;
+    position: sticky;
+    bottom: 1%;
 }

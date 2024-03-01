@@ -1,7 +1,7 @@
 import "./Base.css"
 import NaveBase from "../nav-base/NaveBase"
 
-const Base = () => {
+const Base = ({cartItems}) => {
   return (
     <div className='base'>
         <div className="base-header-container">
@@ -11,7 +11,7 @@ const Base = () => {
         </div>
         </a>
         <div className="nav-base">
-        <NaveBase/>
+        <NaveBase cartItems={cartItems}/>
         </div>
         </div>
         <div className="base-text"  >
